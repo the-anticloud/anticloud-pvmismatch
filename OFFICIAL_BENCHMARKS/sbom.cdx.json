@@ -1,0 +1,102 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:408ba85b-4f87-5f5c-a743-28a98708f950",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T06:26:05Z",
+    "component": {
+      "type": "application",
+      "name": "PVMISMATCH",
+      "version": "b391a98c5ded",
+      "bom-ref": "pkg:generic/anticloud/PVMISMATCH@b391a98c5ded",
+      "purl": "pkg:generic/anticloud/PVMISMATCH@b391a98c5ded",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "b391a98c5ded478a73b3c6a08e8de89024be5156"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/SunPower/PVMismatch"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.13.3",
+      "purl": "pkg:pypi/numpy@1.13.3",
+      "bom-ref": "pypi/numpy@>=1.13.3"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": ">=2.1.0",
+      "purl": "pkg:pypi/matplotlib@2.1.0",
+      "bom-ref": "pypi/matplotlib@>=2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">=1.0.0",
+      "purl": "pkg:pypi/scipy@1.0.0",
+      "bom-ref": "pypi/scipy@>=1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "future",
+      "version": ">=0.16.0",
+      "purl": "pkg:pypi/future@0.16.0",
+      "bom-ref": "pypi/future@>=0.16.0"
+    },
+    {
+      "type": "library",
+      "name": "six",
+      "version": ">=1.11.0",
+      "purl": "pkg:pypi/six@1.11.0",
+      "bom-ref": "pypi/six@>=1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "nose",
+      "version": ">=1.3.7",
+      "purl": "pkg:pypi/nose@1.3.7",
+      "bom-ref": "pypi/nose@>=1.3.7"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": ">=3.2.1",
+      "purl": "pkg:pypi/pytest@3.2.1",
+      "bom-ref": "pypi/pytest@>=3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "sympy",
+      "version": ">=1.1.1",
+      "purl": "pkg:pypi/sympy@1.1.1",
+      "bom-ref": "pypi/sympy@>=1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "pvlib",
+      "version": ">=0.5.1",
+      "purl": "pkg:pypi/pvlib@0.5.1",
+      "bom-ref": "pypi/pvlib@>=0.5.1"
+    }
+  ]
+}
